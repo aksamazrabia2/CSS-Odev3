@@ -1,0 +1,162 @@
+
+.header{
+  display: block;
+  color: #70757a;
+  text-align: right;
+  padding: 0px 10px;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  /*margin-left: 14px;
+  margin-right:-10px;*/
+
+  list-style-type: none;
+  margin: 10px;
+  overflow: hidden;
+  margin-right: 16px;
+
+
+}
+.headerli {
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+}
+
+.headerli a {
+  display: block;
+  color: #70757a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin-left: 14px;
+  margin-right: -20px;
+}
+
+.header a {
+  
+  color: #70757a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin-left: 14px;
+  margin-right: -20px;
+}
+
+
+
+.image-search-button{
+  margin-top:100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+ 
+}
+.image{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-box{
+  margin-top: 30px;
+  border: 2px solid #f2f2f2;
+  border-radius: 20px;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 480px;
+  height: 40px;
+}
+ .icon
+ {
+  width: 50px;
+ 
+ }
+.search-box input
+{
+  border:none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 550px;
+  height: 38px;
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+/*Yazı tipi Arial, yazı rengi #5f6368, yazı boyutu 14px olmalı. Button yüksekliği 36px olmalı.*/
+button{
+  border:1px;
+  margin: 15px;
+  background: #f2f2f2;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  height: 36px;
+  color:#5f6368 ;
+  border-radius: 3px;
+}
+
+.img-profil{
+  width: 30px;
+  height: 30px;
+  margin-right: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+  }
+  .footer {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #dfe1e5;
+    border-top: 1px solid #dadce0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: -8px;
+    line-height: 10px;
+  }
+  
+  .footerli {
+    float: left;
+  }
+  
+  .footerli a {
+    display: block;
+    color: #70757a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin-left: 14px;
+    margin-right: -20px;
+  }
+  
+  .footerli a:hover {
+    text-decoration: underline;
+  }
+  
